@@ -3,16 +3,19 @@ function openBrowser(){
         resolve("Browser opened");
     })
 }
+
 function gotoLoginPage(){
     return new Promise( function (resolve){
         resolve("Login Page Loaded");
     })
 }
+
 function enterCredentials(){
     return new Promise( function (resolve){
         resolve("Credentials entered");
     })
 }
+
 function clickLogin(){
     return new Promise( function (resolve){
         resolve("Logged in successfully");
