@@ -70,6 +70,7 @@ class Person{
         this.#child1=changed_name;
     }
 }
+
 let p=new Person("Pond","Gemini","Fourth");
 p.setChild1("Phuwin");
 console.log(p.getChild1());
